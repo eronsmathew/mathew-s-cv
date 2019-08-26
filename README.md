@@ -6,3 +6,5 @@ This is an entire summary of my Cv using pure HTML WITHOUT CSS
 
 
 ##Special thanks to Flutterwave also with a link to twitter specially appreciating them for sponsoring this program
+
+https://twitter.com/MathewEromosele/status/1164426223898058753?s=19
