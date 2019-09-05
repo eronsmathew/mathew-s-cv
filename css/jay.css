@@ -6,9 +6,12 @@ body{
     width:800px;
     margin:0 auto;
     text-align:left;
-    background-color: mintcream;
+    background-color:white;
 }
 #main-header{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
     border:hidden;
     border-radius:8px;
     margin-bottom: 5px;
@@ -28,6 +31,19 @@ img{
 .myspan{
     color:#e8491d;
 }
+#main-header ul{
+     list-style-type:none;
+}
+#main-header li a{
+    margin-top:29px;
+    margin-right:15px;
+}
+#main-header a:hover{
+    border-radius:5px;
+    background-color:green;
+
+}
+
 #section1{
     border:hidden;
     border-radius:8px;
@@ -150,9 +166,65 @@ li.dropdown {
     padding-left:5%; 
 }
 
+.my-form{
+    width:800px;
+    height:600px;
+    border:hidden;
+    border-radius:5px;
+    margin-top:8%;
 
+}
+.my-form h2{
+    background:#53daba;
+    border:hidden;
+    border-radius:8px;
+    width:750px;
+    text-align:center;
+    color:#fff;
+}
 
+.my-form input[type="text"],
+.my-form input[type="email"],
+.my-form textarea{
+    width: 750px;
+    transition:all 0.30s ease-in-out;
+    box-sizing:border-box;
+    background:#fff;
+    margin-bottom: 3%;
+    border:1px solid #ccc;
+    border-radius:8px;
+    padding:2%;
+    color:black;
+    background-color:#ccc;
+}
 
+.my-form input[type="text"]:focus,
+.my-form input[type="email"]:focus,
+.my-form textarea:focus{
+    box-shadow:0 0 5px rgb(6, 14, 11);
+    padding:3px;
+    border:1px solid #f1f1f1;
+    outline:none;
+}
 
+.my-form #my-btn{
+    width:750px;
+    padding:1%;
+    background:#43d1af;
+    border-radius:5px;
+    border-bottom:2px solid #222423;
+    border-top-style:none;
+    border-right-style:none;
+    border-left-style:none;
+    color:#fff;
+    font-size:1.3em;
+}
 
+.my-form #my-btn:hover{
+     cursor: pointer;
+     background:orangered;
+     color:#ccc;
+     border-bottom:2px solid #e8491d
+
+}
 
