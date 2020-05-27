@@ -1,4 +1,7 @@
-body{
+*{
+    box-sizing:border-box;
+}
+html,body{
     text-align:center;
     font:15px;
 }
@@ -10,6 +13,7 @@ body{
 }
 #main-header{
     display:flex;
+    flex-direction:row;
     flex-wrap:wrap;
     justify-content: space-between;
     border:hidden;
@@ -18,15 +22,17 @@ body{
     background-color:#0B0C10;
     color:#66FCF1;
 }
+
 img{
     padding:10px 8px;
     border:hidden;
     border-radius:10px;
+    transition: all 3s;
 }
-#main-h1{
-    float:right;
-    margin-right:150px;
-    margin-top:50px;
+
+img:hover{
+    transform:scale(1.6);
+    cursor:pointer;
 }
 .myspan{
     color:#e8491d;
@@ -34,11 +40,9 @@ img{
 #main-header ul{
      list-style-type:none;
 }
-#main-header li a{
-    margin-top:29px;
-    margin-right:15px;
-}
+
 #main-header a:hover{
+    margin-right:5px;
     border-radius:5px;
     background-color:green;
 
@@ -146,9 +150,14 @@ li.dropdown {
     background-color: #1f2833;
     color:rgb(202, 233, 230);
 }
-#section5 h2{
+#section5 h3{
     color:rgb(202, 233, 230);
-    float:right;
+    margin-left:7%;
+}
+
+#section5 p{
+    margin-left:6%;
+    padding:2px;
 }
 
 #section6{
@@ -161,11 +170,16 @@ li.dropdown {
 
 #my-ids{
     color:rgb(202, 233, 230);
-    margin:20px;
-    padding-top:5%;
-    padding-left:5%; 
+    margin-top:10px;
+    padding:2%;
+    margin-left:6%;
 }
 
+#section6 p{
+    padding:5px;
+    margin-bottom:10px;
+    margin-left:6%;
+}
 .my-form{
     width:800px;
     height:600px;
@@ -222,9 +236,9 @@ li.dropdown {
 
 .my-form #my-btn:hover{
      cursor: pointer;
-     background:orangered;
+     background:rgb(19, 18, 18);
      color:#ccc;
-     border-bottom:2px solid #e8491d
+     border-bottom:2px solid #f1eceb
 
 }
 

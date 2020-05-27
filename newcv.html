@@ -9,11 +9,15 @@
     <title>My | Cv</title>
    
 </head>
-<body>
+<body onload="javascript:show();">
       <div id="main">
               <div id="main-header">
-                    <img id"myimg" width="10%" height="10%" src="https://res.cloudinary.com/eronzmathew/image/upload/c_scale,h_567/v1566516726/samples/jaykeyz_lyyfud.jpg" alt="Mathew"/>
-                    <h1 id="main-h1">Hello, I'm <span class="myspan">Mathew</span></h1>
+                            <img style = "width: 60px; height: 70px;" src="img/jaykeyz.jpg" alt="Mathew"/>
+                            <img  style = "width:60px; height: 70px;" src="img/munch_2017_05_12_092230.png" alt="jolly-pix"/>
+                            <img style = "width: 60px; height: 70px;" src="img/munch_2017_05_12_112623.png" alt="Esosa"/>
+                            <img style = "width: 60px; height: 70px;"  src="img/11959976_1188477244502110_6677447385825241380_n.jpg" alt="pic-mix"/>
+                           <img  style = "width: 60px; height: 70px;" src="img/IMG_20161205_161911.jpg" alt="Queen"/>
+                    <h1 id="main-h1">Hello, I'm <span class="myspan" onmouseout ="mOut(this)" onmouseover="mOver(this)">Mathew</span></h1>
                       <ul>
                           <li>
                               <a href="contact.html">Contact Me</a>
@@ -61,9 +65,9 @@
 
                           <div class="dropdown-content">
 
-                               <a href="#"><h4>Solved labs provided using vanilla javascript.</h4></a>
-                               <a href="#"><h4>Learnt how to use Git commands.</h4></a>
-                               <a href="#"><h4>Built an online food ordering system.</h4></a>
+                                   <a href="#"><h4>Solved labs provided using vanilla javascript.</h4></a>
+                                    <a href="#"><h4>Learnt how to use Git commands.</h4></a>
+                                  <a href="#"><h4>Built an online food ordering system.</h4></a>
 
                                </li>
                               
@@ -86,17 +90,21 @@
                                     </div>
                                  <div id="section5">
                                         <h3>Education<br>
-                                        November  2009- November 2012</h3>
-                                           <h3>Ambrose Alli University, Ekpoma - Bsc Computer Science
-                                           </h3>
-                                      <h3>West Africa Examination Council(WAEC)  ---- 2008</h3>
-                                 </div>   
-                                <div id="section6">
-                                        <h3 id="my-ids">Awards</h3>
-                                        <h3>Award of Excellence by Parents Teachers Association(PTA), Comprehensive High School, Aran-Orin, Kwara state, to the best serving Corps member..
+                                                 November  2009- November 2012
                                         </h3>
-                                        </div>        
+                                            <P>Ambrose Alli University, Ekpoma - Bsc Computer Science
+                                            </P>
+                                      <P>West Africa Examination Council(WAEC)  ---- 2008</P>
+                                 </div>   
+                                    <div id="section6">
+                                        <h3 id="my-ids">Awards</h3>
+                                            <p>
+                                                Award of Excellence by Parents Teachers Association(PTA), 
+                                                Comprehensive High School, Aran-Orin, Kwara state, to the best serving Corps member..
+                                            </p>
+                                        </h3>
+                                    </div>        
       </div>
-      <script type="text/javascript" src="contact.js"></script>
+             <script src="contact.js"></script>
 </body>
 </html>
